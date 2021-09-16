@@ -1,0 +1,75 @@
+#
+To open console in the tab go :
+crome > inspect > console
+
+#
+clear()
+clears all previous code bits
+
+#
+Order os parenthesis
+P - parenthesis
+E - exponents
+M - multiply 
+D - divide
+A - add
+S - subtract
+
+#
+typeOf 
+typeOf 4    || "Number"
+typeOf 0/0  || "NaN"
+
+#
+Defining a variable 
+let variableName = "Name" ;  
+Const age = 20 ;
+
+#
+.length
+"hello".length || 5 
+
+#
+.toUpperCase() & .toLowerCase()
+let name = "Vinay"
+name.toUpperCase() || "VINAY"
+name.toLowerCase() || "vinay"
+
+#
+.trim()
+"   msg   ".trim() || "abc"
+trims or removes any void case or space at the beginning or at the end of the string 
+
+#
+Chaining method together 
+let s = "   ABC   "
+s.trim().toLowerCase() || "abc"
+
+#
+.indexOf()
+let name = "vinayak"
+name.indexOf("nay")    || 2
+name.indexOf("a")      || 3
+
+#
+.slice(a,b)
+a -> Starting index
+b -> Ending Index
+let a = "Super Man"
+a.slice(5)   || "man"
+a.slice(a,b) || "Super"  
+
+#
+Presence of negative indexing 
+
+#
+.replace(a,b)
+a -> String to be replaced 
+b -> String to be replaced with 
+=> replaces only the first instances 
+let s = "ha ha ha"
+s.replace("ha","hoho") || "hoho ha ha"
+
+#
+.repeat(count)
+"ha".repeat(3)  || "hahaha"
